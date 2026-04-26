@@ -700,9 +700,7 @@ export default function App() {
                                     <table style={{ width: "100%", borderCollapse: "collapse" }}>
                                         <thead>
                                             <tr style={{ background: "white" }}>
-                                                <th style={{ width: 36, paddingRight: 0 }}>
-                                                    <input type="checkbox" checked={allSelected} onChange={toggleAll} style={{ cursor: "pointer", accentColor: "#5C35C9" }} />
-                                                </th>
+
                                                 <th>Nom du dossier</th>
                                                 <th>Client</th>
                                                 <th>Date d'emission</th>
